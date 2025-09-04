@@ -19,8 +19,8 @@ const App = () => {
       <Button onClick={() => switchTheme('dark')}>Dark Theme</Button>
       <Button onClick={() => switchTheme('blue')}>Blue Theme</Button>
       <div>
-        <TextInput label="Username" />
-        <TextInput label="Password" type="password" />
+        <TextInput id="username" label="Username" />
+        <TextInput id="password" label="Password" type="password" />
       </div>
     </div>
   );

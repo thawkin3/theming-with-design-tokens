@@ -1,4 +1,4 @@
 :root[data-theme='blue'] {
-  --background: #0099ff;
-  --color: #ffffff;
+  --background-primary: #0099ff;
+  --text-primary: #ffffff;
 }
