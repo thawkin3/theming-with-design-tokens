@@ -1,23 +1,14 @@
 // ThemeProvider using CSS variables
-import React, { createContext, useState, useContext } from 'react';
+import React, { useState } from 'react';
+import {ThemeContext} from './ThemeContext';
+import '../themes';
 
 // Define default themes with CSS variables
 const defaultThemes = {
-  light: {
-    '--background': '#ffffff',
-    '--color': '#333333',
-  },
-  dark: {
-    '--background': '#333333',
-    '--color': '#ffffff',
-  },
-  blue: {
-    '--background': '#0099ff',
-    '--color': '#ffffff',
-  },
+  light: 'light',
+  dark: 'dark',
+  blue: 'blue',
 };
-
-const ThemeContext = createContext();
 
 export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState(defaultThemes.light);
@@ -29,9 +20,7 @@ export const ThemeProvider = ({ children }) => {
   // Set CSS variables when the theme changes
   React.useEffect(() => {
     const root = document.documentElement;
-    Object.entries(theme).forEach(([key, value]) => {
-      root.style.setProperty(key, value);
-    });
+    root.setAttribute('data-theme', theme);
   }, [theme]);
 
   return (
@@ -40,5 +29,3 @@ export const ThemeProvider = ({ children }) => {
     </ThemeContext.Provider>
   );
 };
-
-export const useTheme = () => useContext(ThemeContext);

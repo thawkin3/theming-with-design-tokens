@@ -2,7 +2,7 @@
 import './App.css'
 
 import React from 'react';
-import { useTheme } from './components/ThemeProvider';
+import { useTheme } from './components/ThemeContext';
 import { Button } from './components/Button';
 
 const App = () => {
