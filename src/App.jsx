@@ -3,6 +3,8 @@ import './App.css';
 import React from 'react';
 import { useTheme } from './components/ThemeContext';
 import { Button } from './components/Button';
+import { Text } from './components/Text';
+import { TextInput } from './components/TextInput';
 
 const App = () => {
   const { theme, switchTheme } = useTheme();
@@ -16,6 +18,10 @@ const App = () => {
       <Button onClick={() => switchTheme('light')}>Light Theme</Button>
       <Button onClick={() => switchTheme('dark')}>Dark Theme</Button>
       <Button onClick={() => switchTheme('blue')}>Blue Theme</Button>
+      <div>
+        <TextInput label="Username" />
+        <TextInput label="Password" type="password" />
+      </div>
     </div>
   );
 };
