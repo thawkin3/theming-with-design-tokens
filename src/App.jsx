@@ -12,7 +12,7 @@ const App = () => {
 
   return (
     <main className={classes.main}>
-      <Text as="h1">Current Theme: {theme}</Text>
+      <Text as="h1">Theming with Design Tokens</Text>
       <VStack spacing={4}>
         <HStack>
           <Button
@@ -28,11 +28,11 @@ const App = () => {
             Dark Theme
           </Button>
         </HStack>
-        <TextInput id="username" label="Username" />
-        <TextInput id="password" label="Password" type="password" />
-        <HStack>
+        <VStack className={classes.loginForm} spacing={4}>
+          <TextInput id="username" label="Username" />
+          <TextInput id="password" label="Password" type="password" />
           <Button colorVariant="primary">Log in</Button>
-        </HStack>
+        </VStack>
       </VStack>
     </main>
   );

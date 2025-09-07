@@ -3,9 +3,9 @@
   --text-primary: #ffffff;
   --focus-outline-color: #1976d2;
 
-  --button-default-background: #888888;
-  --button-default-background-hover: #666666;
-  --button-default-background-pressed: #666666;
+  --button-default-background: #6f6f6f;
+  --button-default-background-hover: #4d4d4d;
+  --button-default-background-pressed: #4d4d4d;
   --button-default-color: #ffffff;
   --button-primary-background: #1976d2;
   --button-primary-background-hover: #005db9;
