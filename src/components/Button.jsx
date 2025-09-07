@@ -4,9 +4,9 @@ import classes from './Button.module.css';
 
 export const Button = ({
   children,
+  colorVariant = 'default',
   onClick,
   type = 'button',
-  colorVariant = 'default',
   ...props
 }) => (
   <button
