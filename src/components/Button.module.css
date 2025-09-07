@@ -14,7 +14,7 @@
 
 .button.default {
   background: var(--button-default-background);
-  color: var(--text-primary);
+  color: var(--button-default-color);
 }
 
 .button.default:hover {
