@@ -1,4 +1,12 @@
-.loginForm {
+.main {
   max-width: 100%;
-  width: 420px;
+  width: 426px;
+}
+
+.themeSwitcher {
+  justify-content: center;
+}
+
+.signup {
+  justify-content: center;
 }
