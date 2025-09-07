@@ -1,4 +1,13 @@
-.formGroup {
-  display: flex;
-  gap: 8px;
+.textInput {
+  background: var(--text-input-background);
+  border: 1px solid var(--text-input-border);
+  border-radius: 4px;
+  color: var(--text-input-color);
+  height: 32px;
+  outline: none;
+  padding: 4px 8px;
+}
+
+.textInput:focus-visible {
+  border-color: var(--focus-outline-color);
 }

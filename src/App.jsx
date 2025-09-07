@@ -13,7 +13,7 @@ const App = () => {
   return (
     <main className={classes.main}>
       <Text as="h1">Current Theme: {theme}</Text>
-      <VStack spacing={8}>
+      <VStack spacing={4}>
         <HStack>
           <Button
             aria-pressed={theme === 'light'}
