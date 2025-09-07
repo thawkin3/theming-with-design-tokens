@@ -1,21 +1,39 @@
 .button {
-  background: var(--background-primary);
-  color: var(--text-primary);
-
+  border: none;
   border-radius: 8px;
-  border: 1px solid var(--text-primary);
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-
-.button:hover {
-  border-color: #646cff;
 }
 
 .button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.button.default {
+  background: var(--button-default-background);
+  color: var(--text-primary);
+}
+
+.button.default:hover {
+  background: var(--button-default-background-hover);
+}
+
+.button.default[aria-pressed='true'] {
+  background: var(--button-default-background-pressed);
+}
+
+.button.primary {
+  background: var(--button-primary-background);
+  color: var(--button-primary-color);
+}
+
+.button.primary:hover {
+  background: var(--button-primary-background-hover);
+}
+
+.button.primary[aria-pressed='true'] {
+  background: var(--button-primary-background-pressed);
 }

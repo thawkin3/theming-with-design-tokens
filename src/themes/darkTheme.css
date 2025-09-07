@@ -1,4 +1,10 @@
 :root[data-theme='dark'] {
   --background-primary: #333333;
   --text-primary: #ffffff;
+  --button-default-background: #888888;
+  --button-default-background-hover: #666666;
+  --button-default-background-pressed: #666666;
+  --button-default-color: #ffffff;
+  --button-primary-background: #1976d2;
+  --button-primary-color: #fff;
 }
