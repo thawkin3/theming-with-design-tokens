@@ -1,0 +1,20 @@
+:root {
+  --background-primary: #ffffff;
+  --text-primary: #333333;
+  --focus-outline-color: #1976d2;
+
+  --button-default-background: #dddddd;
+  --button-default-background-hover: #aaaaaa;
+  --button-default-background-pressed: #aaaaaa;
+  --button-default-color: #333333;
+  --button-primary-background: #1976d2;
+  --button-primary-background-hover: #005db9;
+  --button-primary-background-pressed: #005db9;
+  --button-primary-color: #ffffff;
+
+  --link-color: #1976d2;
+
+  --text-input-background: #ffffff;
+  --text-input-border: #909090;
+  --text-input-color: #222222;
+}
