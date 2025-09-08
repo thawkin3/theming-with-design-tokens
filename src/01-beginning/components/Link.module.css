@@ -1,0 +1,14 @@
+.link {
+  text-decoration: none;
+  color: #1976d2;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link:focus-visible {
+  border-radius: 2px;
+  outline: 2px solid #1976d2;
+  outline-offset: 2px;
+}

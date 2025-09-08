@@ -1,0 +1,13 @@
+.textInput {
+  background: #ffffff;
+  border: 1px solid #909090;
+  border-radius: 4px;
+  color: #222222;
+  height: 32px;
+  outline: none;
+  padding: 4px 8px;
+}
+
+.textInput:focus-visible {
+  border-color: #1976d2;
+}
