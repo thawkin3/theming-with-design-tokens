@@ -5,7 +5,6 @@ import '../themes';
 const defaultThemes = {
   light: 'light',
   dark: 'dark',
-  blue: 'blue',
 };
 
 export const ThemeProvider = ({ children }) => {
