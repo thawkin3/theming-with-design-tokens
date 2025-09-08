@@ -1,0 +1,20 @@
+:root[data-theme='dark'] {
+  --background-primary: #333333;
+  --text-primary: #ffffff;
+  --focus-outline-color: #1976d2;
+
+  --button-default-background: #6f6f6f;
+  --button-default-background-hover: #4d4d4d;
+  --button-default-background-pressed: #4d4d4d;
+  --button-default-color: #ffffff;
+  --button-primary-background: #1976d2;
+  --button-primary-background-hover: #005db9;
+  --button-primary-background-pressed: #005db9;
+  --button-primary-color: #ffffff;
+
+  --link-color: #4ca9ff;
+
+  --text-input-background: #1a1a1a8a;
+  --text-input-border: #9090908a;
+  --text-input-color: #ddd;
+}

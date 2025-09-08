@@ -1,3 +1,6 @@
 # Ignore artifacts:
 build
 coverage
+
+# Keep the long gradients on one line
+src/05-more-themes/themes/glowTheme.css
