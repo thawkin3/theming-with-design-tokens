@@ -1,0 +1,39 @@
+.button {
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--focus-outline-color);
+  outline-offset: 1px;
+}
+
+.button.default {
+  background: var(--button-default-background);
+  color: var(--button-default-color);
+}
+
+.button.default:hover {
+  background: var(--button-default-background-hover);
+}
+
+.button.default[aria-pressed='true'] {
+  background: var(--button-default-background-pressed);
+}
+
+.button.primary {
+  background: var(--button-primary-background);
+  color: var(--button-primary-color);
+}
+
+.button.primary:hover {
+  background: var(--button-primary-background-hover);
+}
+
+.button.primary[aria-pressed='true'] {
+  background: var(--button-primary-background-pressed);
+}
