@@ -8,7 +8,7 @@ The app is built using Vite, React, CSS modules, and CSS variables.
 
 1. `npm install`
 2. `npm run dev`
-3. Open your browser to http://localhost:5173 (or whatever your terminal shows)
+3. Open your browser to http://localhost:5173/ (or whatever your terminal shows)
 
 ## Using the Demo
 

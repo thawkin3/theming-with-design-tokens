@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/theming-with-design-tokens/dist/",
     "format": "npx prettier . --write",
     "format:check": "npx prettier . --check",
     "lint": "eslint .",
