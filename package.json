@@ -1,5 +1,7 @@
 {
   "name": "theming-with-design-tokens",
+  "homepage": "http://tylerhawkins.info/theming-with-design-tokens/dist/",
+  "description": "This demo is part of a talk for UtahJS Conference 2025. Learn how you can leverage design tokens to master creating themes for your app. Light mode, dark mode, and more!",
   "private": true,
   "version": "0.0.0",
   "type": "module",
